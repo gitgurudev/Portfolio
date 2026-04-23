@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, ArrowDown, Download } from "lucide-react";
+import { MapPin, ArrowDown, Download } from "lucide-react";
 import { personalInfo } from "../data/portfolio";
 
 const GithubIcon = () => (
@@ -205,7 +205,6 @@ export default function Hero() {
             {[
               { icon: <GithubIcon />, href: personalInfo.github, label: "GitHub" },
               { icon: <LinkedinIcon />, href: personalInfo.linkedin, label: "LinkedIn" },
-              { icon: <Mail size={18} />, href: `mailto:${personalInfo.email}`, label: "Email" },
             ].map((s) => (
               <motion.a
                 key={s.label}
