@@ -28,9 +28,29 @@ export const skills = {
 
 export const experiences = [
   {
+    company: "Viliso Technologies Private Limited",
+    role: "AI Engineer",
+    period: "Jun 2026 – Present",
+    location: "Mumbai",
+    projects: [
+      {
+        name: "AI Engineering",
+        description: "Building production-grade AI systems and automation workflows",
+        bullets: [
+          "Developing AI-powered applications using Python, LLMs, and Generative AI technologies",
+          "Designing and implementing RAG pipelines with vector databases for intelligent document retrieval",
+          "Building REST APIs and scalable backend services using FastAPI",
+          "Developing AI workflows using LangChain and LangGraph for automation and intelligent decision-making",
+          "Integrating LLM APIs and optimizing prompt engineering for domain-specific AI solutions",
+        ],
+        stack: ["Python", "FastAPI", "LangChain", "LangGraph", "RAG", "Vector DBs", "LLM APIs"],
+      },
+    ],
+  },
+  {
     company: "Grafotics LTD",
-    role: "Senior Software Engineer — Team Lead",
-    period: "Dec 2022 – Present",
+    role: "AI Engineer",
+    period: "Dec 2022 – May 2026",
     location: "Virar (E), Mumbai",
     projects: [
       {
